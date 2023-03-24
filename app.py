@@ -65,7 +65,7 @@ def inserting():
     response_string=""
     response_string+="<table>"
     for player in records:
-        response_string+=="<tr>"
+        response_string+="<tr>"
         for info in player:
             response_string+="<td>{}</td>".format(info)
         response_string+="</table>"
