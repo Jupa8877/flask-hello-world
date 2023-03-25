@@ -42,7 +42,7 @@ def inserting():
     cur = conn.cursor()
     cur.execute('''
         INSERT INTO Basketball (First, Last, City, Name, Number)
-        Values
+        VALUES
         ('Jayson', 'Tatum', 'Boston', 'Celtics', 0), 
         ('Stephen', 'Curry', San Francisco', 'Warriors', 30),
         ('Nikola', Jokic', 'Denver', Nuggets', 15),
