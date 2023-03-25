@@ -54,7 +54,7 @@ def inserting():
 
 
 @app.route('/db_select')
-def inserting():
+def selecting():
     conn = psycopg2.connect("postgres://database_2squ_user:YhEfYLVS0XJ9wf0IhgXyVOEnbbTrzDMw@dpg-cget4102qv2dpvbbku9g-a/database_2squ")
     cur = conn.cursor()
     cur.execute('''
